@@ -23,11 +23,17 @@ body {
     margin-top: 53px;
 }
 
+footer {
+    display: flex;
+    width: 60px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 740px;
+}
+
 .links {
     display: flex;
     flex-direction: column;
-    margin-top: 510px;
-    margin-left: 15px;
 
 }
 
@@ -35,3 +41,4 @@ body {
     width: 25px;
     margin-bottom: 25px;
 }
+

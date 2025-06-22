@@ -1,0 +1,87 @@
+body {
+background-color: black;
+}
+
+.hdr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 53px;
+    width: 100px;
+    margin-left: 50px;
+}
+
+.logo:hover {
+    width: 98px;
+    transition: all 0.2s linear
+}
+
+.menu {
+    width: 35px;
+    margin-right: 50px;
+    margin-top: 53px;
+}
+
+.menu:hover {
+    width: 33px;
+    transition: all 0.2s linear
+}
+
+.members {
+    width: 131px;
+    margin-left: 475px;
+    display: flex;
+    flex-direction: column;
+}
+
+.h {
+        font-size: 33px;
+        color: aliceblue;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+}
+
+.p {
+    font-size: 16px;
+    color: aliceblue;
+    letter-spacing: 2px;
+    line-height: 170%;
+}
+
+.p:hover {
+    font-size: 18px;
+    color: brown;
+    transition: all 0.3s linear
+}
+
+.chan {
+    width: 400px;
+    box-shadow: -35px -38px 3px 7px rgba(255,228,196,0.75);
+    -webkit-box-shadow: -35px -38px 3px 7px rgba(255,228,196,0.75);
+    -moz-box-shadow: -35px -38px 3px 7px rgba(255,228,196,0.75);
+margin-left: 40px;
+}
+
+.chan-p {
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.container {
+    display: flex;
+}
+
+.info {
+    margin-top: 390px;
+    line-height: 170%;
+    letter-spacing: 1px;
+    margin-left: 55px;
+}
+
+.active {
+    color: bisque;
+}
