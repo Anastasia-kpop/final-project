@@ -58,7 +58,7 @@ background-color: black;
     transition: all 0.3s linear
 }
 
-.chan {
+.guys {
     width: 400px;
     box-shadow: -35px -38px 3px 7px rgba(255,228,196,0.75);
     -webkit-box-shadow: -35px -38px 3px 7px rgba(255,228,196,0.75);
@@ -66,7 +66,7 @@ background-color: black;
 margin-left: 40px;
 }
 
-.chan-p {
+.guys-p {
     font-size: 16px;
     color: aliceblue;
 }
@@ -80,6 +80,12 @@ margin-left: 40px;
     line-height: 170%;
     letter-spacing: 1px;
     margin-left: 55px;
+}
+
+.info h1 {
+    color: aliceblue;
+    font-size: 30px;
+    margin-bottom: 5px;
 }
 
 .active {
