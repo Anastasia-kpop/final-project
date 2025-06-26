@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(16, 34, 90);
+}
+
+.hdr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 53px;
+    width: 100px;
+    margin-left: 50px;
+}
+
+.logo:hover {
+    width: 97px;
+    transition: all 0.2s linear
+}
+
+.menu {
+    width: 35px;
+    margin-right: 50px;
+    margin-top: 53px;
+}
+
+.menu:hover {
+    width: 32px;
+    transition: all 0.2s linear
+}
+
+.h {
+    font-size: 33px;
+    color: aliceblue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.h:hover {
+font-size: 31px;
+transition: all 0.2s linear;
+color: rgb(36, 131, 239);
+}
+
+.content{
+    width: 1070px;
+    height: 850px;
+    border: 1px solid beige;
+    display: flex;
+}
