@@ -45,8 +45,18 @@ color: rgb(36, 131, 239);
 }
 
 .content{
-    width: 1070px;
-    height: 850px;
     border: 1px solid beige;
     display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.content img {
+    width: 344px;
+}
+
+.albums{
+    width: 344px;
+    height: 410px;
+    border: 1px solid beige;
 }
