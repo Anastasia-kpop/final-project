@@ -60,3 +60,19 @@ color: rgb(36, 131, 239);
     height: 410px;
     border: 1px solid beige;
 }
+
+.albums p {
+    color: aliceblue;
+    margin: 10px;
+}
+
+.album-name {
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
