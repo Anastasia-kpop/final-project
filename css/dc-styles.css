@@ -1,0 +1,93 @@
+body {
+    background-color: darkblue;
+    background-image: url(https://media.istockphoto.com/id/2177827562/video/blue-background-with-texture-lines-looping-dark-background.jpg?s=640x640&k=20&c=6izax1jlRFu5m9HC9t7gTcOx5DrP0hovrnyfpDCrJbo=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+        position: sticky;
+        top: 0px;
+    }
+    
+.hdr {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .logo {
+        margin-top: 53px;
+        width: 100px;
+        margin-left: 50px;
+    }
+    
+    .logo:hover {
+        width: 97px;
+        transition: all 0.2s linear
+    }
+    
+    .menu {
+        width: 35px;
+        margin-right: 50px;
+        margin-top: 53px;
+    }
+    
+    .menu:hover {
+        width: 32px;
+        transition: all 0.2s linear
+    }
+
+    .h {
+        font-size: 33px;
+        color: aliceblue;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 85px;
+    }
+    
+    .h:hover {
+    font-size: 31px;
+    transition: all 0.2s linear;
+    color: rgb(157, 209, 255);;
+    }
+
+    .dc {
+        border: 1px solid white;
+    }
+
+    .intro {
+        text-align: center;
+        color: aliceblue;
+        font-size: 21px;
+        padding-bottom: 25px;
+    }
+
+    h5 a{
+        color: aliceblue;
+    }
+
+    h5 a:hover{
+        color: aliceblue;
+       color: rgb(157, 209, 255);
+       font-size: 21px;
+       transition: all 0.2s linear;
+    }
+
+
+    h5 {
+        
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            letter-spacing: 10px;
+            font-weight: 700;
+            color: aliceblue;
+            font-size: 23px;
+        flex-flow: wrap;
+    }
