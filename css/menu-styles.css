@@ -8,6 +8,11 @@ body {
     margin-left: 50px;
 }
 
+.logo:hover {
+    width: 97px;
+    transition: all 0.2s linear
+}
+
 main {
     DISPLAY: FLEX;
     FLEX-DIRECTION: column;

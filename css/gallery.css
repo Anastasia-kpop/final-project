@@ -1,0 +1,194 @@
+body {
+    background-color: black;
+}
+
+header{
+    display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+        position: sticky;
+        top: 0px;
+        background-color: black;
+    }
+    
+.hdr {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .logo {
+        margin-top: 53px;
+        width: 100px;
+        margin-left: 50px;
+    }
+    
+    .logo:hover {
+        width: 97px;
+        transition: all 0.2s linear
+    }
+    
+    .menu {
+        width: 35px;
+        margin-right: 50px;
+        margin-top: 53px;
+    }
+    
+    .menu:hover {
+        width: 32px;
+        transition: all 0.2s linear
+    }
+
+    .h {
+        font-size: 33px;
+        color: aliceblue;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 85px;
+    }
+    
+    .h:hover {
+    font-size: 31px;
+    transition: all 0.2s linear;
+    color: rgb(165, 66, 66);
+    }
+
+    .gr {
+        width: 350px;
+    }
+
+    .gr:hover {
+        width: 360px;
+        transition: all 0.2s linear;
+    }
+
+    .gallery {
+        display: flex;
+    flex-flow: wrap;
+    gap: 25px;
+    padding-left: 100px;
+    }
+
+    .chan {
+        width: 350px;
+    }
+
+    .chan:hover {
+        width: 360px;
+        transition: all 0.2s linear;
+    }
+
+    .b {
+        display: flex;
+        flex-flow: wrap;
+        gap: 25px;
+    }
+
+    .minho {
+        width: 350px;
+    }
+
+    .minho:hover {
+        width: 360px;
+        transition: all 0.2s linear;
+    }
+
+    .l {
+        display: flex;
+        flex-flow: wrap;
+        gap: 25px;
+    }
+
+    .binie {
+        width: 350px;
+    }
+
+    .binie:hover {
+        width: 360px;
+        transition: all 0.2s linear;
+    }
+
+    .c {
+        display: flex;
+        flex-flow: wrap;
+        gap: 25px;
+    }
+
+    .hj {
+        width: 350px;
+    }
+
+    .hj:hover {
+        width: 360px;
+        transition: all 0.2s linear;
+    }
+
+    .hy {
+        display: flex;
+        flex-flow: wrap;
+        gap: 25px;
+    }
+
+    .hn {
+        width: 350px;
+        height: 590px;
+    }
+
+    .hn:hover {
+        width: 360px;
+        transition: all 0.2s linear;
+    }
+
+    .ha {
+        display: flex;
+        flex-flow: wrap;
+        gap: 25px;
+    }
+
+    .fl {
+        width: 350px;
+        height: 525px;
+    }
+
+    .fl:hover {
+        width: 360px;
+        transition: all 0.2s linear;
+    }
+
+    .f {
+        display: flex;
+        flex-flow: wrap;
+        gap: 25px;
+    }
+
+    .sm {
+        width: 350px;
+        height: 500px;
+    }
+
+    .sm:hover {
+        width: 360px;
+        transition: all 0.2s linear;
+    }
+
+    .s {
+        display: flex;
+        flex-flow: wrap;
+        gap: 25px;
+    }
+
+    .IN{
+        width: 350px;
+        height: 610px;
+    }
+
+    .IN:hover {
+        width: 360px;
+        transition: all 0.2s linear;
+    }
+
+    .i {
+        display: flex;
+        flex-flow: wrap;
+        gap: 25px;
+    }

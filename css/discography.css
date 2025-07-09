@@ -2,6 +2,15 @@ body {
     background-color: rgb(16, 34, 90);
 }
 
+header{
+display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(16, 34, 90);
+}
+
 .hdr {
     display: flex;
     justify-content: space-between;
@@ -35,7 +44,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 85px;
 }
 
 .h:hover {
@@ -44,8 +53,7 @@ transition: all 0.2s linear;
 color: rgb(240, 222, 166);
 }
 
-.content{
-    border: 1px solid beige;
+.content{ 
     display: flex;
     flex-flow: wrap;
     justify-content: space-between;
@@ -53,6 +61,7 @@ color: rgb(240, 222, 166);
 
 .content img {
     width: 344px;
+    border-radius: 10%;
 }
 
 .content img:hover {
@@ -64,7 +73,6 @@ color: rgb(240, 222, 166);
 .albums{
     width: 344px;
     height: 410px;
-    border: 1px solid beige;
 }
 
 .albums:hover {
