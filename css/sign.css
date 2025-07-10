@@ -1,0 +1,76 @@
+body {
+    background-image: url(https://media.istockphoto.com/id/1184939316/photo/trendy-low-poly-triangles-with-navy-bg.jpg?s=612x612&w=0&k=20&c=T6rKRdht4hK33jgeQxdBxVQ8rcv1Sy3SrVkhl9k0EQc=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.sign-in{
+    width: 425px;
+    margin: 0 auto;
+    height: 500px;
+    background-color: transparent;
+    backdrop-filter: blur(12px);
+    box-shadow: -1px 0px 32px 15px rgba(33,52,94,0.75);
+-webkit-box-shadow: -1px 0px 32px 15px rgba(33,52,94,0.75);
+-moz-box-shadow: -1px 0px 32px 15px rgba(33,52,94,0.75);
+display: flex
+;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+        position: sticky;
+        top: 0px;
+    }
+    
+.hdr {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .logo {
+        margin-top: 53px;
+        width: 100px;
+        margin-left: 50px;
+    }
+    
+    .logo:hover {
+        width: 97px;
+        transition: all 0.2s linear
+    }
+
+    .reg [type="text"] {
+        width: 370px;
+        height: 59px;
+        border: 2px solid #1e417c;
+        font-weight: 700;
+        font-size: 14px;
+        color: #2c4a98;
+        padding-left: 19px;
+        background-color: #0b2755;
+    }
+    
+    input[type="submit"] {
+        width: 370px;
+        height: 59px;
+        background-color: #091588;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+    
+    input[type="submit"]:hover {
+        width: 370px;
+        height: 59px;
+        background-color: #04521e;
+        color: rgb(205, 202, 195);
+        border: none;
+        cursor: pointer;
+      }
