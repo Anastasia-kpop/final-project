@@ -4,7 +4,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
 }
 
 header{
@@ -59,6 +58,12 @@ header{
 
     .dc {
         border: 1px solid white;
+        width: 1275px;
+        margin: 0 auto;
+        flex-flow: wrap;
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
     }
 
     .intro {
@@ -91,3 +96,49 @@ header{
             font-size: 23px;
         flex-flow: wrap;
     }
+
+    h4 {
+        color: aliceblue;
+        font-weight: 600;
+        padding-top: 23px;
+        padding-bottom: 20px;
+        font-size: 25px;
+    }
+
+    li {
+        color: aliceblue;
+        font-size: 20px;
+        padding-left: 35px;
+    }
+
+    li strong {
+        color: rgb(157, 209, 255) !important;
+        font-size: 21px !important;
+    }
+
+    ul {
+        line-height: 30px;
+    }
+
+    .groups{
+        padding-left: 100px;
+    }
+
+    .ending {
+            display: flex ;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .ending p {
+            color: rgb(168, 164, 164);
+            font-size: 20px;
+            padding-bottom: 10px;
+        }
+
+        .jk img {
+            padding-top: 23px;
+        }
+    
