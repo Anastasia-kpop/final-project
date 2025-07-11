@@ -31,7 +31,6 @@ background-color: black;
 
 .members {
     width: 131px;
-    margin-left: 475px;
     display: flex;
     flex-direction: column;
 }
@@ -42,7 +41,9 @@ background-color: black;
         width: 100%;
         display: flex;
         justify-content: center;
-        margin-bottom: 100px;
+        margin-bottom: 55px;
+        letter-spacing: 8px;
+        font-family: "Bebas Neue", sans-serif;
 }
 
 .h:hover {
@@ -52,14 +53,15 @@ background-color: black;
 }
 
 .p {
-    font-size: 16px;
+    font-size: 20px;
     color: aliceblue;
     letter-spacing: 2px;
     line-height: 170%;
+    font-family: "Annie Use Your Telescope", cursive;
 }
 
 .p:hover {
-    font-size: 18px;
+    font-size: 22px;
     color: brown;
     transition: all 0.3s linear
 }
@@ -71,6 +73,7 @@ background-color: black;
     -moz-box-shadow: -35px -38px 3px 7px rgba(255,228,196,0.75);
 margin-left: 40px;
 height: 585px;
+margin-top: 40px;
 }
 
 .guys-p {
@@ -80,10 +83,13 @@ height: 585px;
 
 .container {
     display: flex;
+    justify-content: center;
 }
 
 .info {
-    margin-top: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     line-height: 170%;
     letter-spacing: 1px;
     margin-left: 55px;
@@ -93,6 +99,15 @@ height: 585px;
     color: bisque;
     font-size: 30px;
     margin-bottom: 5px;
+    font-family: "Dancing Script", cursive;
+}
+
+.info h1:hover {
+    color: bisque;
+    font-size: 28px;
+    margin-bottom: 5px;
+    font-family: "Dancing Script", cursive;
+    transition: all 0.2s linear;
 }
 
 .active {

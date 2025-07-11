@@ -24,7 +24,8 @@ main {
 .p {
     font-size: 36px;
     color: #ffffff;
-    letter-spacing: 2px;
+    letter-spacing: 8px;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 .p:hover {

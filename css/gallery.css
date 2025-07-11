@@ -45,6 +45,8 @@ header{
         display: flex;
         justify-content: center;
         margin-bottom: 85px;
+        letter-spacing: 8px;
+        font-family: "Bebas Neue", sans-serif;
     }
     
     .h:hover {

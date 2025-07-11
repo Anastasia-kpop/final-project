@@ -7,7 +7,7 @@ body {
 }
 
 .sign-in{
-    width: 425px;
+    width: 360px;
     margin: 0 auto;
     height: 500px;
     background-color: transparent;
@@ -46,19 +46,30 @@ header{
         transition: all 0.2s linear
     }
 
+    .menu {
+        width: 125px;
+        margin-right: 50px;
+        margin-top: 53px;
+    }
+    
+    .menu:hover {
+        width: 122px;
+        transition: all 0.2s linear
+    }
+
     .reg [type="text"] {
-        width: 370px;
+        width: 340px;
         height: 59px;
         border: 2px solid #1e417c;
         font-weight: 700;
         font-size: 14px;
-        color: #2c4a98;
+        color: #9eb6f7;
         padding-left: 19px;
         background-color: #0b2755;
     }
     
     input[type="submit"] {
-        width: 370px;
+        width: 340px;
         height: 59px;
         background-color: #091588;
         color: white;
@@ -67,7 +78,7 @@ header{
       }
     
     input[type="submit"]:hover {
-        width: 370px;
+        width: 340px;
         height: 59px;
         background-color: #04521e;
         color: rgb(205, 202, 195);

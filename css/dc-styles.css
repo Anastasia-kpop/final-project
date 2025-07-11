@@ -48,6 +48,8 @@ header{
         display: flex;
         justify-content: center;
         margin-bottom: 85px;
+        letter-spacing: 8px;
+        font-family: "Bebas Neue", sans-serif;
     }
     
     .h:hover {
@@ -57,14 +59,17 @@ header{
     }
 
     .dc {
-        border: 1px solid white;
+        border: 1px solid rgb(65, 104, 147);
         width: 1275px;
         margin: 0 auto;
-        flex-flow: wrap;
         display: flex;
         flex-direction: column;
         padding: 15px;
         letter-spacing: 0.5px;
+        box-shadow: -1px -1px 53px 10px rgba(60,103,186,0.75);
+-webkit-box-shadow: -1px -1px 53px 10px rgba(60,103,186,0.75);
+-moz-box-shadow: -1px -1px 53px 10px rgba(60,103,186,0.75);
+margin-bottom: 40px;
     }
 
     .intro {
@@ -72,10 +77,12 @@ header{
         color: aliceblue;
         font-size: 21px;
         padding-bottom: 25px;
+        font-family: "Delius Swash Caps", cursive;
     }
 
     h5 a{
         color: aliceblue;
+        font-family: "Griffy", system-ui;
     }
 
     h5 a:hover{
@@ -104,12 +111,14 @@ header{
         padding-top: 23px;
         padding-bottom: 20px;
         font-size: 25px;
+        font-family: "Lugrasimo", cursive;
     }
 
     li {
         color: aliceblue;
         font-size: 20px;
         padding-left: 35px;
+        font-family: "Delius Swash Caps", cursive;
     }
 
     li strong {
@@ -178,4 +187,5 @@ header{
             text-align: center;
             color: aliceblue;
             font-size: 20px;
+            font-family: "Delius Swash Caps", cursive;
         }
