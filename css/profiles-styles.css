@@ -84,6 +84,7 @@ margin-top: 40px;
 .container {
     display: flex;
     justify-content: center;
+    flex-flow: wrap;
 }
 
 .info {
@@ -117,7 +118,6 @@ margin-top: 40px;
 footer {
     display: flex;
     width: 60px;
-    justify-content: flex-end;
     align-items: flex-end;
     height: 110px;
 }

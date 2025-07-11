@@ -1,0 +1,68 @@
+@media (max-width:969px) {
+.info {
+    margin-top: 40px;
+}
+
+.links {
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer{
+    width: 100%;
+    justify-content: center;
+}
+
+.links img {
+    margin-left: 20px;
+}
+}
+
+@media (max-width:636px) {
+    .p {
+        font-size: 28px;
+    }
+    .p:hover {
+        font-size: 26px;
+    }
+
+    .h {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width:510px) {
+    .p {
+        font-size: 28px;
+    }
+
+    .p:hover {
+        font-size: 26px;
+    }
+
+    .h {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .guys {
+        width: 370px;
+        height: auto;
+    }
+}
+
+@media (max-width:430px){
+    .guys {
+        width: 300px;
+    }
+}
+
+@media (max-width:355px){
+    .guys {
+        width: 315px;
+        box-shadow: none;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+}
