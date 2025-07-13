@@ -1,0 +1,133 @@
+body {
+        background-color: darkblue;
+        background-image: url(https://www.shutterstock.com/image-illustration/dark-blue-purple-abstract-unique-600nw-2393196267.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+
+header{
+display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    position: sticky;
+    top: 0px;
+}
+
+.hdr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 53px;
+    width: 100px;
+    margin-left: 50px;
+}
+
+.logo:hover {
+    width: 97px;
+    transition: all 0.2s linear
+}
+
+.menu {
+    width: 35px;
+    margin-right: 50px;
+    margin-top: 53px;
+}
+
+.menu:hover {
+    width: 32px;
+    transition: all 0.2s linear
+}
+
+.h {
+    font-size: 33px;
+    color: aliceblue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 85px;
+    letter-spacing: 8px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.h:hover {
+    font-size: 31px;
+    transition: all 0.2s linear;
+    color: rgb(240, 222, 166);
+    }
+
+    .left-side {
+        color: aliceblue !important;
+        line-height: 170%;
+        width: 410px;
+    }
+
+    .img {
+        border-radius: 7%;
+        box-shadow: -1px 1px 26px 3px rgba(64,88,176,0.75);
+-webkit-box-shadow: -1px 1px 26px 3px rgba(64,88,176,0.75);
+-moz-box-shadow: -1px 1px 26px 3px rgba(64,88,176,0.75);
+    }
+
+    .dots {
+        font-size: 20px;
+        letter-spacing: 2px;
+        font-family: "Delius Unicase", cursive;
+    }
+
+    .back {
+        color: aliceblue;
+        padding-bottom: 10px;
+        font-family: "Delius Unicase", cursive;
+    }
+
+    .RLS{
+        font-family: "Delius Unicase", cursive;
+    }
+
+    .back:hover{
+font-size: 18px;
+padding-left: 11px;
+color: rgb(39, 95, 179);
+transition: all 0.3s linear;
+    }
+
+    .left-side p{
+        padding-left: 7px;
+    }
+
+    .r-s {
+        color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 170%;
+        padding-left: 20px;
+    }
+
+    .top {
+        display: flex;
+        justify-content: space-evenly;
+        flex-flow: wrap;
+    }
+
+    .r-s h3{
+font-size: 30px;
+padding-bottom: 10px;
+font-family: "Kirang Haerang", system-ui;
+    }
+
+    .li {
+        font-family: "Kirang Haerang", system-ui;
+        font-size: 22px;
+        letter-spacing: 3px
+    }
+
+    .r-s strong{
+        color: rgb(96 191 243 / 75%);
+        letter-spacing: 1px !important;
+    }
+    
