@@ -4,7 +4,6 @@ body {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        height: 100vh;
     }
 
 header{
@@ -112,12 +111,13 @@ transition: all 0.3s linear;
         display: flex;
         justify-content: space-evenly;
         flex-flow: wrap;
+        padding-bottom: 30px;
     }
 
     .r-s h3{
 font-size: 30px;
 padding-bottom: 10px;
-font-family: "Kirang Haerang", system-ui;
+font-family: "Shadows Into Light", cursive;
     }
 
     .li {
@@ -130,4 +130,59 @@ font-family: "Kirang Haerang", system-ui;
         color: rgb(96 191 243 / 75%);
         letter-spacing: 1px !important;
     }
+
+    .d2{
+        font-size: 25px;
+        font-family: "Kirang Haerang", system-ui;
+        color: aliceblue;
+        letter-spacing: 3px;
+    }
+
+    h1{
+        font-size: 27px;
+        color: #79b3ff;
+        padding-bottom: 10px;
+        font-family: "Pangolin", cursive;
+    }
+
+    .bottom2 li{
+         color: #d8e9f8;
+         font-size: 14px;
+    }
+
+    .bottom2 h3{
+        color: #70a2cd;;
+        font-size: 21px;
+        font-family: "Delius", cursive;
+    }
     
+    .bottom1{
+        line-height: 170%;
+        width: 440px;
+    }
+
+    .bottom2 {
+        width: 440px;
+        line-height: 175%;
+    }
+
+    .whole-bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .l1{
+        padding-left: 10px;
+        font-family: "Delius Unicase", cursive;
+    }
+
+    .l2 {
+        padding-left: 15px;
+        font-family: "Delius Unicase", cursive;
+    }
+
+    .dotss{
+        font-family: "Kirang Haerang", system-ui;
+        color: aliceblue !important;
+    }
