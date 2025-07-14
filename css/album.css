@@ -186,3 +186,7 @@ font-family: "Shadows Into Light", cursive;
         font-family: "Kirang Haerang", system-ui;
         color: aliceblue !important;
     }
+
+    .second{
+        display: none;
+    }

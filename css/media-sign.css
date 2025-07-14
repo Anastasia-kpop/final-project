@@ -1,0 +1,35 @@
+@media (max-width:345px){
+    input[type="submit"] {
+        width: 315px;
+    }
+    .reg [type="text"] {
+        width: 315px;
+    }
+    .sign-in {
+        width: 344px;
+    }
+}
+
+@media (max-width:376px){
+ body{
+    height: auto !important;
+ }
+}
+
+@media (max-width:360px){
+    body{
+       height: 100vh !important;
+    }
+   }
+
+   @media (min-width:1024px){
+    body{
+       height: auto !important;
+    }
+   }
+
+   @media (min-width:1280px){
+    body{
+       height: 100vh !important;
+    }
+   }
