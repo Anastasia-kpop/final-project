@@ -1,7 +1,17 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 100 version
+*/
+
 body {
     background-image: url(https://media.istockphoto.com/id/1184939316/photo/trendy-low-poly-triangles-with-navy-bg.jpg?s=612x612&w=0&k=20&c=T6rKRdht4hK33jgeQxdBxVQ8rcv1Sy3SrVkhl9k0EQc=);
     background-repeat: no-repeat;
-    background-size: cover;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
     background-position: center;
     height: 100vh;
 }
@@ -11,28 +21,66 @@ body {
     margin: 0 auto;
     height: 500px;
     background-color: transparent;
-    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+            backdrop-filter: blur(12px);
     box-shadow: -1px 0px 32px 15px rgba(33,52,94,0.75);
 -webkit-box-shadow: -1px 0px 32px 15px rgba(33,52,94,0.75);
 -moz-box-shadow: -1px 0px 32px 15px rgba(33,52,94,0.75);
+display: -webkit-box;
+display: -webkit-flex;
+display: -moz-box;
+display: -ms-flexbox;
 display: flex
 ;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 header{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+           -moz-box-orient: vertical;
+           -moz-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         padding-bottom: 30px;
+        position: -webkit-sticky;
         position: sticky;
         top: 0px;
     }
     
 .hdr {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+           -moz-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
     
     .logo {
@@ -43,6 +91,9 @@ header{
     
     .logo:hover {
         width: 97px;
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
         transition: all 0.2s linear
     }
 
@@ -54,6 +105,9 @@ header{
     
     .menu:hover {
         width: 122px;
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
         transition: all 0.2s linear
     }
 

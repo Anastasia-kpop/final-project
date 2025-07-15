@@ -1,134 +1,224 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 100 version
+*/
+
 body {
-background-color: black;
-}
-
-.hdr {
-    display: flex;
-    justify-content: space-between;
-}
-
-.logo {
-    margin-top: 53px;
-    width: 100px;
-    margin-left: 50px;
-}
-
-.logo:hover {
-    width: 97px;
-    transition: all 0.2s linear
-}
-
-.menu {
-    width: 35px;
-    margin-right: 50px;
-    margin-top: 53px;
-}
-
-.menu:hover {
-    width: 32px;
-    transition: all 0.2s linear
-}
-
-.members {
-    width: 131px;
-    display: flex;
-    flex-direction: column;
-}
-
-.h {
-        font-size: 33px;
-        color: aliceblue;
-        width: 100%;
+    background-color: black;
+    }
+    
+    .hdr {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
-        margin-bottom: 55px;
-        letter-spacing: 8px;
-        font-family: "Bebas Neue", sans-serif;
-}
-
-.h:hover {
-    font-size: 31px;
-    transition: all 0.2s linear;
-    color: bisque;
-}
-
-.p {
-    font-size: 20px;
-    color: aliceblue;
-    letter-spacing: 2px;
-    line-height: 170%;
-    font-family: "Annie Use Your Telescope", cursive;
-}
-
-.p:hover {
-    font-size: 22px;
-    color: brown;
-    transition: all 0.3s linear
-}
-
-.guys {
-    width: 450px;
-    box-shadow: -35px -38px 3px 7px rgba(255,228,196,0.75);
-    -webkit-box-shadow: -35px -38px 3px 7px rgba(255,228,196,0.75);
-    -moz-box-shadow: -35px -38px 3px 7px rgba(255,228,196,0.75);
-margin-left: 40px;
-height: 585px;
-margin-top: 40px;
-}
-
-.guys-p {
-    font-size: 16px;
-    color: aliceblue;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    flex-flow: wrap;
-}
-
-.info {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    line-height: 170%;
-    letter-spacing: 1px;
-    margin-left: 55px;
-}
-
-.info h1 {
-    color: bisque;
-    font-size: 30px;
-    margin-bottom: 5px;
-    font-family: "Dancing Script", cursive;
-}
-
-.info h1:hover {
-    color: bisque;
-    font-size: 28px;
-    margin-bottom: 5px;
-    font-family: "Dancing Script", cursive;
-    transition: all 0.2s linear;
-}
-
-.active {
-    color: bisque;
-}
-
-footer {
-    display: flex;
-    width: 60px;
-    align-items: flex-end;
-    height: 110px;
-}
-
-.links {
-    display: flex;
-    flex-direction: column;
-
-}
-
-.links img {
-    width: 25px;
-    margin-bottom: 25px;
-}
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+           -moz-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+    
+    .logo {
+        margin-top: 53px;
+        width: 100px;
+        margin-left: 50px;
+    }
+    
+    .logo:hover {
+        width: 97px;
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
+        transition: all 0.2s linear
+    }
+    
+    .menu {
+        width: 35px;
+        margin-right: 50px;
+        margin-top: 53px;
+    }
+    
+    .menu:hover {
+        width: 32px;
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
+        transition: all 0.2s linear
+    }
+    
+    .members {
+        width: 131px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+           -moz-box-orient: vertical;
+           -moz-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    
+    .h {
+            font-size: 33px;
+            color: aliceblue;
+            width: 100%;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+               -moz-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            margin-bottom: 55px;
+            letter-spacing: 8px;
+            font-family: "Bebas Neue", sans-serif;
+    }
+    
+    .h:hover {
+        font-size: 31px;
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+        color: bisque;
+    }
+    
+    .p {
+        font-size: 20px;
+        color: aliceblue;
+        letter-spacing: 2px;
+        line-height: 170%;
+        font-family: "Annie Use Your Telescope", cursive;
+    }
+    
+    .p:hover {
+        font-size: 22px;
+        color: brown;
+        -webkit-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        -moz-transition: all 0.3s linear;
+        transition: all 0.3s linear
+    }
+    
+    .guys {
+        width: 450px;
+        box-shadow: -35px -38px 3px 7px rgba(255,228,196,0.75);
+        -webkit-box-shadow: -35px -38px 3px 7px rgba(255,228,196,0.75);
+        -moz-box-shadow: -35px -38px 3px 7px rgba(255,228,196,0.75);
+    margin-left: 40px;
+    height: 585px;
+    margin-top: 40px;
+    }
+    
+    .guys-p {
+        font-size: 16px;
+        color: aliceblue;
+    }
+    
+    .container {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+           -moz-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-flex-flow: wrap;
+            -ms-flex-flow: wrap;
+                flex-flow: wrap;
+    }
+    
+    .info {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+           -moz-box-orient: vertical;
+           -moz-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+           -moz-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
+        line-height: 170%;
+        letter-spacing: 1px;
+        margin-left: 55px;
+    }
+    
+    .info h1 {
+        color: bisque;
+        font-size: 30px;
+        margin-bottom: 5px;
+        font-family: "Dancing Script", cursive;
+    }
+    
+    .info h1:hover {
+        color: bisque;
+        font-size: 28px;
+        margin-bottom: 5px;
+        font-family: "Dancing Script", cursive;
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+    }
+    
+    .active {
+        color: bisque;
+    }
+    
+    footer {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 60px;
+        -webkit-box-align: end;
+        -webkit-align-items: flex-end;
+           -moz-box-align: end;
+            -ms-flex-align: end;
+                align-items: flex-end;
+        height: 110px;
+    }
+    
+    .links {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+           -moz-box-orient: vertical;
+           -moz-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    
+    }
+    
+    .links img {
+        width: 25px;
+        margin-bottom: 25px;
+    }

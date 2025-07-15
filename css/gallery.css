@@ -1,19 +1,45 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 100 version
+*/
+
 body {
     background-color: black;
 }
 
 header{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+           -moz-box-orient: vertical;
+           -moz-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         padding-bottom: 30px;
+        position: -webkit-sticky;
         position: sticky;
         top: 0px;
         background-color: black;
     }
     
 .hdr {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+           -moz-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
     
     .logo {
@@ -24,6 +50,9 @@ header{
     
     .logo:hover {
         width: 97px;
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
         transition: all 0.2s linear
     }
     
@@ -35,6 +64,9 @@ header{
     
     .menu:hover {
         width: 32px;
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
         transition: all 0.2s linear
     }
 
@@ -42,8 +74,16 @@ header{
         font-size: 33px;
         color: aliceblue;
         width: 100%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+           -moz-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         margin-bottom: 85px;
         letter-spacing: 8px;
         font-family: "Bebas Neue", sans-serif;
@@ -51,6 +91,9 @@ header{
     
     .h:hover {
     font-size: 31px;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
     transition: all 0.2s linear;
     color: rgb(165, 66, 66);
     }
@@ -61,12 +104,21 @@ header{
 
     .gr:hover {
         width: 360px;
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
         transition: all 0.2s linear;
     }
 
     .gallery {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
         display: flex;
-    flex-flow: wrap;
+    -webkit-flex-flow: wrap;
+        -ms-flex-flow: wrap;
+            flex-flow: wrap;
     gap: 25px;
     padding-left: 100px;
     }
@@ -77,12 +129,21 @@ header{
 
     .chan:hover {
         width: 360px;
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
         transition: all 0.2s linear;
     }
 
     .b {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-flow: wrap;
+        -webkit-flex-flow: wrap;
+            -ms-flex-flow: wrap;
+                flex-flow: wrap;
         gap: 25px;
     }
 
@@ -92,12 +153,21 @@ header{
 
     .minho:hover {
         width: 360px;
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
         transition: all 0.2s linear;
     }
 
     .l {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-flow: wrap;
+        -webkit-flex-flow: wrap;
+            -ms-flex-flow: wrap;
+                flex-flow: wrap;
         gap: 25px;
     }
 
@@ -107,12 +177,21 @@ header{
 
     .binie:hover {
         width: 360px;
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
         transition: all 0.2s linear;
     }
 
     .c {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-flow: wrap;
+        -webkit-flex-flow: wrap;
+            -ms-flex-flow: wrap;
+                flex-flow: wrap;
         gap: 25px;
     }
 
@@ -122,12 +201,21 @@ header{
 
     .hj:hover {
         width: 360px;
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
         transition: all 0.2s linear;
     }
 
     .hy {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-flow: wrap;
+        -webkit-flex-flow: wrap;
+            -ms-flex-flow: wrap;
+                flex-flow: wrap;
         gap: 25px;
     }
 
@@ -138,12 +226,21 @@ header{
 
     .hn:hover {
         width: 360px;
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
         transition: all 0.2s linear;
     }
 
     .ha {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-flow: wrap;
+        -webkit-flex-flow: wrap;
+            -ms-flex-flow: wrap;
+                flex-flow: wrap;
         gap: 25px;
     }
 
@@ -154,12 +251,21 @@ header{
 
     .fl:hover {
         width: 360px;
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
         transition: all 0.2s linear;
     }
 
     .f {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-flow: wrap;
+        -webkit-flex-flow: wrap;
+            -ms-flex-flow: wrap;
+                flex-flow: wrap;
         gap: 25px;
     }
 
@@ -170,12 +276,21 @@ header{
 
     .sm:hover {
         width: 360px;
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
         transition: all 0.2s linear;
     }
 
     .s {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-flow: wrap;
+        -webkit-flex-flow: wrap;
+            -ms-flex-flow: wrap;
+                flex-flow: wrap;
         gap: 25px;
     }
 
@@ -186,11 +301,20 @@ header{
 
     .IN:hover {
         width: 360px;
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
         transition: all 0.2s linear;
     }
 
     .i {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-flow: wrap;
+        -webkit-flex-flow: wrap;
+            -ms-flex-flow: wrap;
+                flex-flow: wrap;
         gap: 25px;
     }

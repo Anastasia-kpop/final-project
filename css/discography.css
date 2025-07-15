@@ -1,19 +1,45 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 100 version
+*/
+
 body {
     background-color: rgb(16, 34, 90);
 }
 
 header{
+display: -webkit-box;
+display: -webkit-flex;
+display: -moz-box;
+display: -ms-flexbox;
 display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding-bottom: 30px;
+    position: -webkit-sticky;
     position: sticky;
     top: 0px;
     background-color: rgb(16, 34, 90);
 }
 
 .hdr {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+       -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .logo {
@@ -24,6 +50,9 @@ display: flex;
 
 .logo:hover {
     width: 97px;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
     transition: all 0.2s linear
 }
 
@@ -35,6 +64,9 @@ display: flex;
 
 .menu:hover {
     width: 32px;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
     transition: all 0.2s linear
 }
 
@@ -42,8 +74,16 @@ display: flex;
     font-size: 33px;
     color: aliceblue;
     width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-bottom: 85px;
     letter-spacing: 8px;
     font-family: "Bebas Neue", sans-serif;
@@ -51,23 +91,41 @@ display: flex;
 
 .h:hover {
 font-size: 31px;
+-webkit-transition: all 0.2s linear;
+-o-transition: all 0.2s linear;
+-moz-transition: all 0.2s linear;
 transition: all 0.2s linear;
 color: rgb(240, 222, 166);
 }
 
 .content{ 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -moz-box; 
+    display: -ms-flexbox; 
     display: flex;
-    flex-flow: wrap;
-    justify-content: space-between;
+    -webkit-flex-flow: wrap;
+        -ms-flex-flow: wrap;
+            flex-flow: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+       -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .content img {
     width: 344px;
-    border-radius: 10%;
+    -webkit-border-radius: 10%;
+       -moz-border-radius: 10%;
+            border-radius: 10%;
 }
 
 .content img:hover {
     width: 340px;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
     transition: all 0.2s linear;
     cursor: pointer;
 }
@@ -80,6 +138,9 @@ color: rgb(240, 222, 166);
 .albums:hover {
     width: 340px;
     height: 406px;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
     transition: all 0.2s linear;
     cursor: pointer;
 }
@@ -97,8 +158,22 @@ color: rgb(240, 222, 166);
 }
 
 .p {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+       -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     font-family: "Griffy", system-ui;
 }
